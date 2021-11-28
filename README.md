@@ -45,7 +45,8 @@ when it comes to Assignment Submission.
   - On top-right there is logout button
     ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/Screenshot%20(15).jpg)
     
-  - There are multiple Assignment Cards on the home page.
+  - There are multiple Assignment Cards on the home page. And also each Assignment card is scroll-able. If content of card overflows
+    then user can scroll inside the card.
     ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/Screenshot%20(19).jpg)
 
 3. Create Assignment Page for Teachers
