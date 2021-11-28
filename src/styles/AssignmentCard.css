@@ -1,0 +1,98 @@
+.Assignment{
+    width:40vw;
+    height:35vh;
+    border: 2px solid white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    overflow: scroll;
+}
+
+.Assignment_Description{
+    background-color: rgba(253, 187, 45, 1);
+    width: auto;
+    overflow-wrap: break-word;
+    color: cornsilk;
+    height: 2rem;
+    border-radius: 15px;
+    text-transform: capitalize;
+}
+p{
+    margin-top:4px;
+}
+h5{
+    margin:0px;
+}
+
+.buttons{
+    margin: auto;
+    display:flex;
+}   
+
+.Assignment_Link,.Submit_Assignment{
+    cursor: pointer;
+    background-color: beige;
+    width: 10vw;
+    height: 5vh;
+    border: 2px solid beige;
+    border-radius: 10px;
+    margin: 5px;
+}
+.Link{
+    color:black;
+    text-decoration: none;
+}
+
+.Assignment::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+ .Assignment ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+ .Assignment ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  .Assignment::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+@media screen and (max-width:1035px) {
+    
+    .Assignment{
+        width:35vw;
+        font-size: 15px;
+    }
+    .Assignment_Link,.Submit_Assignment{
+        width:15vw
+    }
+}
+
+
+@media screen and (max-width:695px) {
+    .Assignment{
+        display: block;
+        width:60vw;
+        height:40vh;
+        margin: 5vw;
+    }
+    .buttons{
+        display: block
+    }
+}
+
+@media screen and (max-width:695px) {
+    
+    .Assignment_Link,.Submit_Assignmen{
+        display: block;
+        margin: auto;
+        width:25vw;
+    }
+}

@@ -1,0 +1,103 @@
+.assignments {
+	margin: auto;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.assignmentTitle {
+	font-size: 25px;
+	text-align: center;
+}
+
+.textarea {
+	border: 3px double #CCCCCC;
+	width: 60vw;
+	margin-left: 15px;
+	padding: 5px;
+	word-wrap: break-word;
+}
+
+.description {
+	height: 10vh;
+}
+
+.assignmentModal {
+	margin: auto;
+	height: 530px;
+	width: 70vw;
+	transform: translateY(10%);
+	background-color: white;
+	outline: none;
+	border: 1px solid white;
+	overflow: hidden;
+}
+
+.assignmentForm>div {
+	margin: 5px 15px;
+	padding: 5px;
+}
+
+
+.uploadFiles,
+.fileSelection,
+.create_cancle {
+	text-align: center;
+}
+
+.button {
+	border: none;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 10px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 15px;
+}
+
+.create,
+.submit {
+	background-color: white;
+	color: black;
+	border: 2px solid #4CAF50;
+}
+
+.create:hover,
+.submit:hover {
+	background-color: #4CAF50;
+	color: white;
+}
+
+
+.upload {
+	background-color: white;
+	color: black;
+	border: 2px solid #008CBA;
+}
+
+.upload:hover {
+	background-color: #008CBA;
+	color: white;
+}
+
+.cancel {
+	background-color: white;
+	color: black;
+	border: 2px solid #f44336;
+}
+
+.cancel:hover {
+	background-color: #f44336;
+	color: white;
+}
+
+@media screen and (max-width:600px) {
+	.button {
+		padding: 10px 20px;
+		font-size: 10px;
+		margin: 8px;
+	}
+}

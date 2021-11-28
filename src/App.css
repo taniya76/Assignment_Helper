@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
+
+.App {
+  text-align: center;
+  font-family: 'Lemonada', cursive;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+@media  screen and (max-width:600px) {
+  .App{
+    width: 100vw;
+    height: 100vh;
+  }
+  
+}

@@ -1,0 +1,34 @@
+
+.header{
+    height: 10vh;
+}
+
+.home{
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-radius: 12px;
+    font-size: x-large;
+    float: left;
+    margin: 5px;
+    transition-duration: 0.7s;
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+.home:hover{
+    background-color: rgb(255, 175, 1);
+}
+
+.ShowContainer{
+    margin: auto;
+    width: 60vw;
+    color:white;
+}
+
+@media screen and (max-width:680px){
+    .ShowContainer{
+        width:80vw;
+    }
+}

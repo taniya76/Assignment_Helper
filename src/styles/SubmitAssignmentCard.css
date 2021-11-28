@@ -1,0 +1,40 @@
+.SubmittedAssignment{
+    border: 2px dotted white;
+    display: flex;
+    margin: 3px;
+    height: 15vh;
+    padding:5px;
+}
+
+.Details{
+    float: left;
+    font-size: 10px;
+    width: 70%;
+}
+
+.btn{
+    width:30%;
+    margin:auto;
+}
+
+.SubmitAssignmentLink{
+    background-color: transparent;
+    border-radius: 12px;
+    border: 2px solid rgb(255, 175, 1);
+    box-shadow: 2px 1px rgb(255 175 1);
+    padding: 10px 30px;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.SubmitAssignmentLink:hover{
+    background-color: rgb(255, 175, 1);
+}
+
+
+
+@media screen and (max-width:680px){
+    .SubmitAssignmentLink{
+        padding:8px 20px;
+    }
+}

@@ -1,0 +1,18 @@
+.Assignment_Container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  scrollbar-width: 2px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+@media screen and (max-width:695px) {
+  .Assignment_Container {
+    width: 70vw;
+    margin: auto;
+  }
+}

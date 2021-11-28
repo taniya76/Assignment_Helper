@@ -1,0 +1,63 @@
+.Navbar {
+    text-align: center;
+    width: auto;
+    height: 10vh;
+    border-bottom: 1px solid white;
+    margin: 2px
+}
+
+.backButton,
+.homeButton,
+.logoutButton {
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border-radius: 12px;
+    border: 2px solid rgb(255, 175, 1);
+    box-shadow: 2px 1px rgb(255, 175, 1);
+    height: 40px;
+    min-width: 80px;
+    margin: 8px 3px;
+    font-size: 20px;
+    transition-duration: 0.7s;
+}
+
+.backButton:hover,
+.homeButton:hover,
+.logoutButton:hover {
+    background-color: rgb(255, 175, 1);
+}
+
+.backButton,
+.homeButton {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.user {
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+@media screen and (max-width:695px) {
+
+    .backButton,
+    .homeButton,
+    .logoutButton {
+        font-size: 12px
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .backButton,
+    .homeButton,
+    .logoutButton {
+        min-width: 30px;
+        box-shadow: 1px 1px rgb(255, 175, 1);
+        margin: 3px 1px;
+    }
+}

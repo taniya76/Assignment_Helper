@@ -1,0 +1,76 @@
+#start {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: #080808;
+    color: white;
+}
+
+#classroom-login-signup {
+    margin: auto;
+}
+
+.classroom-title {
+    cursor: default;
+    line-height: 450px;
+    font-size: 100px;
+    color: rgba(34, 193, 195, 1);
+}
+
+.to-sign-in,
+.to-sign-up {
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    transition-duration: 0.7s;
+    border-radius: 15px;
+}
+
+.to-sign-in {
+    border: 1px solid rgba(34, 193, 195, 1);
+    color: rgba(34, 193, 195, 1);
+    box-shadow: 1px 1px 1px rgba(34, 193, 195, 1);
+}
+
+.to-sign-in:hover {
+    background-color: rgba(34, 193, 195, 1);
+    color: black;
+    box-shadow: none;
+}
+
+.to-sign-up {
+    border: 1px solid rgba(253, 187, 45, 1);
+    color: rgba(253, 187, 45, 1);
+    box-shadow: 1px 1px 1px rgba(253, 187, 45, 1);
+}
+
+.to-sign-up:hover {
+    background-color: rgba(253, 187, 45, 1);
+    color: black;
+    box-shadow: none;
+}
+
+@media screen and (max-width:650px) {
+    .classroom-title {
+        line-height: 300px;
+        font-size: 50px;
+    }
+}
+
+
+@media screen and (max-width:300px) {
+    .classroom-title {
+        line-height: 200px;
+        font-size: 30px;
+    }
+
+    .to-sign-in,
+    .to-sign-up {
+        margin: 10px;
+        width: 150px;
+        height: 50px;
+    }
+}
