@@ -26,9 +26,46 @@ when it comes to Assignment Submission.
 
 ## Features and Interfaces
 
-1. Landing Page and Feeback Form
+1. Landing Page
   - Seamless landing page with `Login with Email and Password` button for user Login using Firebase Authentication 
+    ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/Screenshot%20(11).jpg)
+  
+  - SignUp Page for new Users
+    ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/Screenshot%20(22).png)
+  
+  - SignIn Page for existing Users
+    ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/Screenshot%20(13).jpg)
+    
+ 2. Home page 
+  - On Students' home page they can see the assignments uploaded by teachers.
+  - On top-right there is logout button and if any user logout then he/she comes to starting page.
+    ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/Screenshot%20(20).jpg)
+    
+  - On Teachers' home page they can see the assignments and there are option of Create Assignment and View Submitted Assignments.
+  - On top-right there is logout button
+    ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/Screenshot%20(15).jpg)
+    
+  - There are multiple Assignment Cards on the home page.
+    ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/Screenshot%20(19).jpg)
 
+3. Create Assignment Page for Teachers
+   ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/Screenshot%20(16).jpg)
+   
+   And after clicking the create Assignment this Modal pop-up
+   ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/Screenshot%20(17).jpg)
+
+4. View Submitted Assignments for Teachers
+    ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/Screenshot%20(18).jpg)
+    
+5. Assignment Submission Page for Students
+  - There are multiple Assignment cards and when any user submit the assignment then this page shows.
+    ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/Screenshot%20(21).jpg)
+ 
+    
+    
+    
+    
+    
 
 
 ## Available Scripts
