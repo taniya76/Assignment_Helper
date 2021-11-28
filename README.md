@@ -1,8 +1,35 @@
 # Assignment Helper - Website
 ## Submission for Microsoft Engage 2021 🌟
 
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Apurva-tech/unite?logo=github&style=for-the-badge)](https://github.com/taniya76/) 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/taniya76/Assignment_Helper?logo=github&style=for-the-badge)](https://github.com/taniya76/) 
+[![GitHub last commit](https://img.shields.io/github/last-commit/taniya76/Assignment_Helper?style=for-the-badge&logo=git)](https://github.com/taniya76/) 
+[![GitHub stars](https://img.shields.io/github/stars/taniya76/Assignment_Helper?style=for-the-badge)](https://github.com/taniya76/Assignment_Helper/stargazers) 
+[![My stars](https://img.shields.io/github/stars/taniya76?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&label=My%20stars)](https://github.com/taniya76/Assignment_Helper/stargazers) 
+[![GitHub forks](https://img.shields.io/github/forks/taniya76/Assignment_Helper?style=for-the-badge&logo=git)](https://github.com/taniya76/Assignment_Helper/network)
+[![Code size](https://img.shields.io/github/languages/code-size/taniya76/Assignment_Helper?style=for-the-badge)](https://github.com/taniya76/Assignment_Helper)
+[![Languages](https://img.shields.io/github/languages/count/taniya76/Assignment_Helper?style=for-the-badge)](https://github.com/taniya76/Assignment_Helper)
+[![Top](https://img.shields.io/github/languages/top/taniya76/Assignment_Helper?style=for-the-badge&label=Top%20Languages)](https://github.com/taniya76/Assignment_Helper)
+[![Issues](https://img.shields.io/github/issues/taniya76/Assignment_Helper?style=for-the-badge&label=Issues)](https://github.com/taniya76/Assignment_Helper)
+[![Watchers](	https://img.shields.io/github/watchers/taniya76/Assignment_Helper?label=Watch&style=for-the-badge)](https://github.com/taniya76/Assignment_Helper) 
+
+`Assignment Helper` can help teacher and students 
+when it comes to Assignment Submission.
+
+<p align="center">
+<a href="https://classroom2-72408.web.app/">
+  <p>Live Code</p>
+</a>
+</p>
+
+[![Generic badge](https://img.shields.io/badge/view-demo-blue?style=for-the-badge&label=View%20Demo%20Video)](https://www.youtube.com/watch?v=4Dgj6eOFkq4) 
+
+
+## Features and Interfaces
+
+1. Landing Page and Feeback Form
+  - Seamless landing page with `Login with Email and Password` button for user Login using Firebase Authentication 
+
+
 
 ## Available Scripts
 
