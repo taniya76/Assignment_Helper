@@ -1,5 +1,7 @@
-# Getting Started with Create React App
+# Assignment Helper - Website
+## Submission for Microsoft Engage 2021 🌟
 
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Apurva-tech/unite?logo=github&style=for-the-badge)](https://github.com/taniya76/) 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
