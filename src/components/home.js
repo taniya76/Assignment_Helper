@@ -40,6 +40,7 @@ function Home() {
         setCount(Assignments.length);
     }, [count !== Assignments.length]);
 
+    //first thing called when user signin/signup
     let userkey;
     const auth = getAuth();
     onAuthStateChanged(auth, (user) => {

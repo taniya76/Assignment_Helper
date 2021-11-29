@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect} from 'react';
 import { useHistory, useParams } from 'react-router-dom';
 import '../styles/Assignments.css';
 
@@ -25,6 +25,7 @@ function SubmitAssignment() {
     const [percentage, setPercentage] = useState(0);
 
     const [isSubmitted, setIsSubmitted] = useState(false);
+
 
     function addUploadButton(event) {
         setUploadButton(true);
@@ -159,10 +160,8 @@ function SubmitAssignment() {
                     uploadButton
                         ?
                         <div className="uploadFiles">
-                            <button className="button upload" onClick={uploadFile}>Upload</button>
-                            <span className="fileName">
-                                {selectedFile ? selectedFile.name : ""}
-                            </span>
+                            <button className="button upload" onClick={uploadFile}> Upload </button>
+                            <span className="fileName"> {selectedFile ? selectedFile.name : ""} </span>
                             <button className="button cancel" onClick={cancelUpload}>Cancel</button>
                         </div> : 
                         null
@@ -177,12 +176,7 @@ function SubmitAssignment() {
                 <input type="submit" value="Submit Assignment" className="button submit create_cancle" />
             </form>
             <button className="button upload" onClick={() => { history.replace("/home") }}>Go back to Home</button>
-            {
-                isSubmitted === true ?
-                    <h4>Successfully Uploaded the Assignment</h4>
-                    :
-                    null
-            }
+            <p>Just Wait for few Seconds after Submitting the Assignment</p>
         </div>
     );
 }

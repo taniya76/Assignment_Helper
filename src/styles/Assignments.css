@@ -3,6 +3,9 @@
 	overflow-y: auto;
 	overflow-x: hidden;
 }
+.assignmentModal{
+	color:black;
+}
 
 .assignmentTitle {
 	font-size: 25px;

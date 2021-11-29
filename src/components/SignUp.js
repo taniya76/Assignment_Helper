@@ -3,9 +3,8 @@ import '../styles/SignUp.css';
 import { useHistory } from "react-router-dom";
 
 //firebase related imports
-// import db from '../firebase/firebase';
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
-import { collection, addDoc } from "firebase/firestore";
+// import { collection, addDoc } from "firebase/firestore";
 import { getDatabase, ref, push, set } from "firebase/database";
 
 
@@ -56,9 +55,7 @@ function SignUp() {
         const auth = getAuth();
         createUserWithEmailAndPassword(auth, currentEmail, currentPassword)
             .then((userCredential) => {
-                console.log(userCredential);
-                //adds the value in database 
-                // addValue(userCredential.user.email, userCredential.user.uid);
+                // console.log(userCredential);
 
                 // NotificationManager.success('Created the Account', 'Success');
                 const db = getDatabase();
