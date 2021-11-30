@@ -17,7 +17,7 @@ when it comes to Assignment Submission.
 
 <p align="center">
 <a href="https://classroom2-72408.web.app/">
-  <p>Live Code</p>
+  <p>Live Demo</p>
 </a>
 </p>
 
