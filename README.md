@@ -15,7 +15,7 @@
 `Assignment Helper` can help teacher and students 
 when it comes to Assignment Submission.
 
-<p align="center">
+<p allign="center">
 <a href="https://classroom2-72408.web.app/">
   <p>Live Code</p>
 </a>
