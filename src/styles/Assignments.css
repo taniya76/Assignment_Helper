@@ -26,13 +26,13 @@
 
 .assignmentModal {
 	margin: auto;
-	height: 530px;
-	width: 70vw;
-	transform: translateY(10%);
-	background-color: white;
-	outline: none;
-	border: 1px solid white;
-	overflow: hidden;
+    height: auto;
+    width: 70vw;
+    transform: translateY(10%);
+    background-color: white;
+    /* outline: none; */
+    border: 1px solid green;
+    overflow: hidden;
 }
 
 .assignmentForm>div {

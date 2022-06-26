@@ -24,7 +24,7 @@
 .ShowContainer{
     margin: auto;
     width: 60vw;
-    color:white;
+    /* color:white; */
 }
 
 @media screen and (max-width:680px){

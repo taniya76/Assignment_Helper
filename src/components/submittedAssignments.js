@@ -48,9 +48,9 @@ function SubmittedAssignments() {
 
     return (
         <div className="SubmittedAssignments">
-            <div className="header">
+            {/* <div className="header">
                 <button className="home" onClick={() => { history.replace("/home") }}>&larr; Go back Home</button>
-            </div>
+            </div> */}
             <div>
                 {
                     (studentList === []) ?
@@ -62,9 +62,9 @@ function SubmittedAssignments() {
                                 {/* {console.log(Assignments)} */}
                                 <h1>Submitted Assignments</h1>
                                 {
-                                    console.log(numberOfStudents,studentList.length),
-                                    studentList.length !== numberOfStudents ?
-                                        <h1>Nothing to show</h1> :
+                                    // console.log(numberOfStudents,studentList.length),
+                                    // studentList.length !== numberOfStudents ?
+                                    //     <h1>Nothing to show</h1> :
                                         (
                                             <div className="ShowContainer">
                                                 {

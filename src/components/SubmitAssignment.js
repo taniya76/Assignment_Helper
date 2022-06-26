@@ -1,4 +1,4 @@
-import React, { useState,useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import { useHistory, useParams } from 'react-router-dom';
 import '../styles/Assignments.css';
 
@@ -109,7 +109,7 @@ function SubmitAssignment() {
 
     async function Submit(event) {
         event.preventDefault();
-        
+
         //find the roll number of the current student
         let found = getRollNumber();
         // console.log(rollNumber);
@@ -130,7 +130,7 @@ function SubmitAssignment() {
             onValue(userRef, (snapshot) => {
                 snapshot.forEach((childSnapshot) => {
                     // console.log(childSnapshot);
-                    
+
                     //mark as done of the current user
 
                     if (childSnapshot.val().uid === auth.currentUser.uid) {
@@ -148,13 +148,26 @@ function SubmitAssignment() {
         });
     }
 
+
+    function displayUploadedFiles() {
+        return (
+            this.state.uploadedFiles.map((file, index) => {
+                console.log(file, this.state.selectedFile);
+                return (
+                    <div>
+                        <span className="uploadedFilesData" key={index}>{file.fileName}</span>
+                    </div>
+                );
+            }
+            ));
+    }
     return (
         <div className="assignmentModal">
             <form className="assignmentForm" onSubmit={Submit}>
                 <br />
                 <div className="fileSelection">
                     <input type="file" name="file" id="file" className="button inputfile" onChange={addUploadButton} />
-                    <label htmlFor="file"><p style={{"display":'block'}}>&#8686; Choose a file</p></label>
+                    <label htmlFor="file"><p style={{ "display": 'block' }}>&#8686; Choose a file</p></label>
                 </div>
                 {
                     uploadButton
@@ -163,7 +176,7 @@ function SubmitAssignment() {
                             <button className="button upload" onClick={uploadFile}> Upload </button>
                             <span className="fileName"> {selectedFile ? selectedFile.name : ""} </span>
                             <button className="button cancel" onClick={cancelUpload}>Cancel</button>
-                        </div> : 
+                        </div> :
                         null
                 }
                 {

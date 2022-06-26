@@ -1,15 +1,21 @@
-
-body {
-    background: linear-gradient(135deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+.signup{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/signup.jpg');
+    background-repeat: no-repeat;
+    margin-left: 10vw;
+}
+/* body {
     font-size: 100%;
     background-attachment: fixed;
-}
+} */
 
 #signUp_ID {  
     max-width: 500px;
     min-width: 300px;
     width: 30%;
-    margin: 5vh auto;
+    margin-top: 5vh;
+    margin-left: 45vw;
     background-color: #FFFFFF;
     border-radius: 25px;
 }
@@ -42,7 +48,7 @@ body {
 }
 
 .row input:focus {
-    box-shadow: inset 0px -3px 0px 0px rgba(34, 193, 195, 0.7);
+    box-shadow: inset 0px -3px 0px 0px #1a7129;
     outline: none;
 }
 
@@ -82,7 +88,7 @@ body {
     font-size: 1.3rem;
     color: white;
     font-weight: 700;
-    background: linear-gradient(90deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    background: #1a7129;
     border: 0px;
     cursor: pointer;
     transition: opacity 0.25s ease-out;

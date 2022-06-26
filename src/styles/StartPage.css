@@ -1,9 +1,18 @@
+#partition{
+    display:flex
+}
+.start_img{
+    background-image: url('../images/start.jpg');
+    background-repeat: round;
+    width: 65vw;
+    height: 100vh;
+}
+
 #start {
     height: 100%;
-    width: 100%;
     text-align: center;
-    background-color: #080808;
     color: white;
+    background-color: white;
 }
 
 #classroom-login-signup {

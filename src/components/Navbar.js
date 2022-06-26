@@ -1,6 +1,8 @@
 import React, { useRef, useState } from 'react';
 import '../styles/Navbar.css';
 import { useHistory } from "react-router-dom";
+import logo from '../images/logo.png';
+
 
 //firebase related imports.
 import { getAuth, onAuthStateChanged } from "firebase/auth";
@@ -58,14 +60,13 @@ function Navbar() {
     return (
         <div>
             <div className="Navbar">
-                <button className="homeButton" onClick={toHome}>Home</button>
+                <button className="homeButton" onClick={toHome}><img src={logo}  alt="Home" width={"42px"} height={"40px"}/></button>
                 <button className="logoutButton right" onClick={Logout}>Logout</button>
                 {
                     isTeacher ?
                         <div className="teacherOptions">
                             <button className="logoutButton right" onClick={Assignment}>Create Assignment</button>
-                            <button className="logoutButton right" onClick={submittedAssignments}>Check Assignments</button>
-                        </div> :
+                         </div> :
                         <div></div>
                 }
             </div>

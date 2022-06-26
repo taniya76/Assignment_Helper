@@ -1,16 +1,18 @@
 #details-page {
-	height: 732px;
+	background-color: #1a7129;
+	height: 100%;
 }
 
 .details {
-	position: absolute;
-	width: 500px;
-	border: 1px solid white;
-	color: white;
-	padding: 15px;
-	margin-left: 450px;
-	margin-top: 150px;
-	font-family: 'Nunito';
+	position: relative;
+    width: 500px;
+    border: 1px solid black;    /* color: white; */
+    padding: 30px;
+    margin: auto;
+	background-color:white;
+	/* margin-top: 5vh; */
+    font-family: 'Nunito';
+	color: black;
 }
 
 .details-title {

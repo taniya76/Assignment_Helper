@@ -77,33 +77,34 @@ function SignUp() {
     }
 
     return (
+        <div className="signup">
+            <div id="signUp_ID">
+                <div className="signUp">
+                    <div className="signUp-title">Sign Up</div>
+                    <form className="signUp-form" >
+                        <div className="row">
+                            <label>Email</label>
+                            <input type="text" className="signUp_email" name="email" placeholder="Enter your Email" ref={email} autoComplete="off" />
 
-        <div id="signUp_ID">
-            <div className="signUp">
-                <div className="signUp-title">Sign Up</div>
-                <form className="signUp-form" >
-                    <div className="row">
-                        <label>Email</label>
-                        <input type="text" className="signUp_email" name="email" placeholder="Enter your Email" ref={email} autoComplete="off" />
+                        </div>
+                        <div className="row">
+                            <label>Password</label>
+                            <input type="password" className="signUp_password" name="password" placeholder="Enter your Password" ref={password} />
 
-                    </div>
-                    <div className="row">
-                        <label>Password</label>
-                        <input type="password" className="signUp_password" name="password" placeholder="Enter your Password" ref={password} />
+                        </div>
+                        <div className="row">
+                            <label>Confirm Password</label>
+                            <input type="password" className="signUp_password" name="confirmPassword" placeholder="Confirm Password" ref={confirmPassword} />
 
-                    </div>
-                    <div className="row">
-                        <label>Confirm Password</label>
-                        <input type="password" className="signUp_password" name="confirmPassword" placeholder="Confirm Password" ref={confirmPassword} />
+                        </div>
+                        <div id="button" className="button_submit">
+                            <input type="submit" className="signUp_submit" onClick={submitDetails} />
+                            <input type="button" className="signUp_cancel" value="Cancle" onClick={() => { history.replace("/"); }} />
+                        </div>
 
-                    </div>
-                    <div id="button" className="button_submit">
-                        <input type="submit" className="signUp_submit" onClick={submitDetails} />
-                        <input type="button" className="signUp_cancel" value="Cancle" onClick={() => { history.replace("/"); }} />
-                    </div>
-
-                </form>
-                <NotificationContainer />
+                    </form>
+                    <NotificationContainer />
+                </div>
             </div>
         </div>
     );

@@ -4,6 +4,7 @@ import { useHistory } from "react-router-dom";
 import '../styles/home.css';
 import Navbar from './Navbar.js';
 import AssignmentCard from './AssignmentCard';
+import SubmittedAssignments from './submittedAssignments';
 
 //firebase related imports
 import { getAuth, onAuthStateChanged } from "firebase/auth";
@@ -15,6 +16,7 @@ function Home() {
     const [Assignments, setAssignment] = useState([]);
     const [count, setCount] = useState(0);
 
+    const [isTeacher, setTeacher] = useState(false);
 
     const db = getDatabase();
     const dbRef = ref(db, 'assignments/');
@@ -53,6 +55,9 @@ function Home() {
             onValue(dbRef, (snapshot) => {
                 snapshot.forEach((childSnapshot) => {
                     if (childSnapshot.val().uid === uid) {
+                        if (childSnapshot.val().userType === "Teacher") {
+                            setTeacher(true);
+                        }
                         userkey = childSnapshot.key;
                         // console.log(userkey);
                     }
@@ -71,6 +76,9 @@ function Home() {
         <div>
             <Navbar />
             {
+                isTeacher?
+                    <SubmittedAssignments />
+                :
                 (Assignments === []) ?
                     (
                         <div><h1>Nothing to show</h1></div>

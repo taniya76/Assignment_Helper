@@ -1,9 +1,8 @@
 .Navbar {
     text-align: center;
     width: auto;
-    height: 10vh;
-    border-bottom: 1px solid white;
-    margin: 2px
+    height: 8vh;
+    background-color: #1a7129;
 }
 
 .backButton,
@@ -13,19 +12,20 @@
     background-color: transparent;
     color: white;
     border-radius: 12px;
-    border: 2px solid rgb(255, 175, 1);
-    box-shadow: 2px 1px rgb(255, 175, 1);
-    height: 40px;
+    /* border: 2px solid rgb(255, 175, 1); */
+    /* box-shadow: 2px 1px rgb(255 175 1); */
+    border: none;
+    height: 8vh;
     min-width: 80px;
-    margin: 8px 3px;
-    font-size: 20px;
+    /* margin: 8px 3px; */
+    font-size: 17px;
     transition-duration: 0.7s;
 }
 
 .backButton:hover,
 .homeButton:hover,
 .logoutButton:hover {
-    background-color: rgb(255, 175, 1);
+    background-color: #259c3a;
 }
 
 .backButton,
@@ -57,7 +57,6 @@
     .homeButton,
     .logoutButton {
         min-width: 30px;
-        box-shadow: 1px 1px rgb(255, 175, 1);
         margin: 3px 1px;
     }
 }

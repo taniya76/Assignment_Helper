@@ -1,5 +1,5 @@
 .SubmittedAssignment{
-    border: 2px dotted white;
+    border: 2px solid #1a7129;
     display: flex;
     margin: 3px;
     height: 15vh;
@@ -18,17 +18,19 @@
 }
 
 .SubmitAssignmentLink{
-    background-color: transparent;
+
+    background-color: #1a7129;
     border-radius: 12px;
-    border: 2px solid rgb(255, 175, 1);
-    box-shadow: 2px 1px rgb(255 175 1);
+    /* border: 2px solid rgb(255, 175, 1); */
+    /* box-shadow: 2px 1px rgb(255 175 1); */
     padding: 10px 30px;
     font-size: 16px;
     transition-duration: 0.4s;
+    border: none;
     cursor: pointer;
 }
 .SubmitAssignmentLink:hover{
-    background-color: rgb(255, 175, 1);
+    background-color: #259c3a;
 }
 
 
