@@ -34,7 +34,7 @@ when it comes to Assignment Submission.
     ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/signup.png)
   
   - SignIn Page for existing Users
-    ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/signin.jpg)
+    ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/signin.png)
     
  2. Home page 
   - On Students' home page they can see the assignments uploaded by teachers.
