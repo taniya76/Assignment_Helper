@@ -27,40 +27,31 @@ when it comes to Assignment Submission.
 ## Features and Interfaces
 
 1. Landing Page
-  - Seamless landing page with `Login with Email and Password` button for user Login using Firebase Authentication 
+  - Seamless landing page with two options of SignIn and SignUp. 
     ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/main.png)
   
   - SignUp Page for new Users
-    ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/Screenshot%20(22).png)
+    ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/signup.png)
   
   - SignIn Page for existing Users
-    ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/Screenshot%20(13).jpg)
+    ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/signin.jpg)
     
  2. Home page 
   - On Students' home page they can see the assignments uploaded by teachers.
   - On top-right there is logout button and if any user logout then he/she comes to starting page.
-    ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/Screenshot%20(20).jpg)
-    
-  - On Teachers' home page they can see the assignments and there are option of Create Assignment and View Submitted Assignments.
-  - On top-right there is logout button
-    ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/Screenshot%20(15).jpg)
-    
   - There are multiple Assignment Cards on the home page. And also each Assignment card is scroll-able. If content of card overflows
     then user can scroll inside the card.
-    ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/Screenshot%20(19).jpg)
-
-3. Create Assignment Page for Teachers
-   ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/Screenshot%20(16).jpg)
-   
-   And after clicking the create Assignment this Modal pop-up
-   ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/Screenshot%20(17).jpg)
-
-4. View Submitted Assignments for Teachers
-    ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/Screenshot%20(18).jpg)
+    ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/student_main_portal.png)
     
-5. Assignment Submission Page for Students
+  - On Teachers' home page they can see the submitted assignments and there are option of Create Assignment.
+    ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/teacher_main_portal.png)
+    
+3. Create Assignment Page for Teachers
+   ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/create_Assign.png)
+    
+4. Assignment Submission Page for Students
   - There are multiple Assignment cards and when any user submit the assignment then this page shows.
-    ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/Screenshot%20(21).jpg)
+    ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/submit_Assign.png)
  
     
  Tech Stack: 
