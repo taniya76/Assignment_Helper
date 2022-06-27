@@ -28,7 +28,7 @@ when it comes to Assignment Submission.
 
 1. Landing Page
   - Seamless landing page with `Login with Email and Password` button for user Login using Firebase Authentication 
-    ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/Screenshot%20(11).jpg)
+    ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/main.png)
   
   - SignUp Page for new Users
     ![image](https://github.com/taniya76/Assignment_Helper/blob/master/screenshots/Screenshot%20(22).png)
